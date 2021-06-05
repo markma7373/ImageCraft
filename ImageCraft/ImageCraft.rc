@@ -1,0 +1,733 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Traditional, Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ImageCraft.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxprint.rc""               // printing/print preview resources\r\n"
+    "#include ""afxribbon.rc""              // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GUIDEBAR            BITMAP                  "res\\guidebar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_IMAGE_CRAFT_DIALOG DIALOGEX 0, 0, 150, 692
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_BLACK,10,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_RED,26,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_GREEN,42,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_YELLOW,58,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_BLUE,74,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_PURPLE,90,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_CYAN,106,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_WHITE,122,194,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_BLACK_BRIGHT,10,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_RED_BRIGHT,26,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_GREEN_BRIGHT,42,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_YELLOW_BRIGHT,58,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_BLUE_BRIGHT,74,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_PURPLE_BRIGHT,90,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_CYAN_BRIGHT,106,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_SELECTOR_WHITE_BRIGHT,122,209,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_COLOR_CURRENT_FOREGROUND,10,178,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "前景",IDC_TEXT_COLOR_CURRENT_FOREGROUND,31,181,35,8,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_COLOR_CURRENT_BACKGROUND,70,178,16,15,SS_NOTIFY,WS_EX_CLIENTEDGE
+    LTEXT           "背景",IDC_TEXT_COLOR_CURRENT_BACKGROUND,91,181,31,8,SS_NOTIFY
+    PUSHBUTTON      "隨機內容",IDC_BUTTON_TEST_CONTENTS,8,668,47,14
+    LTEXT           "繪圖功能",IDC_STATIC,5,334,73,8
+    CONTROL         "檢視內容 [V]",IDC_RADIO_VIEW_ANSI,"Button",BS_AUTORADIOBUTTON | WS_GROUP,5,344,104,8
+    CONTROL         "填入半形空白 [Q]",IDC_RADIO_DRAW_SPACES,"Button",BS_AUTORADIOBUTTON,5,354,103,8
+    CONTROL         "改變顏色 [E]",IDC_RADIO_CHANGE_COLOR,"Button",BS_AUTORADIOBUTTON,5,441,103,8
+    CONTROL         "邊緣調整 [R]",IDC_RADIO_REFINE_BOUNDARY,"Button",BS_AUTORADIOBUTTON,5,415,104,8
+    CONTROL         "填入全形字元 [B]",IDC_RADIO_DRAW_BLOCK,"Button",BS_AUTORADIOBUTTON,5,375,105,8
+    CONTROL         "填入小正方格 [W]",IDC_RADIO_DRAW_SMALL_SQUARE,"Button",BS_AUTORADIOBUTTON,5,364,104,8
+    CONTROL         "合併全形方格 [D]",IDC_RADIO_MERGE_BLOCK,"Button",BS_AUTORADIOBUTTON,5,405,104,8
+    CONTROL         "插入／刪除空白 [F]",IDC_RADIO_INSERT_DELETE_SPACE,"Button",BS_AUTORADIOBUTTON,5,385,105,8
+    CONTROL         "大型筆刷 [A]",IDC_RADIO_DRAW_LARGE_BRUSH,"Button",BS_AUTORADIOBUTTON,5,467,104,8
+    CONTROL         "填入文字 [S]",IDC_RADIO_ADD_TEXT,"Button",BS_AUTORADIOBUTTON,5,395,103,8
+    GROUPBOX        "圖片設定",IDC_STATIC,5,7,140,138
+    CONTROL         "",IDC_SLIDER_IMAGE_ALPHA_RATIO,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,75,15,66,14
+    RTEXT           "24",IDC_TEXT_IMAGE_ALPHA_RATIO,49,18,22,8,SS_NOTIFY
+    LTEXT           "濃度",IDC_STATIC_IMAGE_ALPHA_RATIO,9,18,30,8,SS_NOTIFY
+    LTEXT           "完整尺寸",IDC_STATIC_IMAGE_FULL_SIZE,11,81,33,8,SS_NOTIFY
+    LTEXT           "0 x 0",IDC_TEXT_IMAGE_FULL_SIZE,57,81,69,8,SS_NOTIFY
+    LTEXT           "顯示範圍",IDC_STATIC_IMAGE_ROI_RANGE,11,92,33,8,SS_NOTIFY
+    LTEXT           "x: 0 ~ 0\ny: 0 ~ 0\n無旋轉",IDC_TEXT_IMAGE_ROI_RANGE,56,92,82,26,SS_NOTIFY
+    LTEXT           "縮放",IDC_STATIC_IMAGE_RESIZE_RATIO,9,34,30,8,SS_NOTIFY
+    RTEXT           "100%",IDC_TEXT_IMAGE_RESIZE_RATIO,49,34,24,8,SS_NOTIFY
+    CONTROL         "允許移動圖片",IDC_CHECK_MOVE_IMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,132,102,8
+    CONTROL         "",IDC_SLIDER_IMAGE_RESIZE_RATIO,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,75,31,66,14
+    PUSHBUTTON      "清除畫板",IDC_BUTTON_CLEAR_CANVAS,5,509,47,14
+    CONTROL         "隱藏圖片 [C]",IDC_CHECK_HIDE_IMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,121,100,8
+    CONTROL         "",IDC_STATIC_BLOCK_SELECTOR,"Static",SS_OWNERDRAW | SS_NOTIFY,5,262,140,65
+    PUSHBUTTON      "▲",IDC_BUTTON_DISPLAY_ROW_UP,5,148,14,14
+    PUSHBUTTON      "▼",IDC_BUTTON_DISPLAY_ROW_DOWN,5,162,14,14
+    LTEXT           "直行 1 - 80 (半形)\n橫列 1 - 23",IDC_TEXT_DISPLAY_RANGE,57,153,84,17,SS_NOTIFY
+    PUSHBUTTON      "上頁",IDC_BUTTON_DISPLAY_PAGE_UP,20,148,33,14
+    PUSHBUTTON      "下頁",IDC_BUTTON_DISPLAY_PAGE_DOWN,20,162,33,14
+    GROUPBOX        "測試／除錯",IDC_GROUP_DEBUG_ONLY_ITEMS,5,658,140,27
+    PUSHBUTTON      "產生除錯檔",IDC_BUTTON_TEST_DEBUG_DUMP,66,668,50,14
+    CTEXT           "2",IDC_TEXT_LARGE_BRUSH_SIZE,61,494,16,8,SS_NOTIFY
+    LTEXT           "形狀",IDC_STATIC,10,480,32,8
+    COMBOBOX        IDC_COMBO_LARGE_BRUSH_SHAPE,46,477,59,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "直徑",IDC_STATIC,10,494,32,8
+    LTEXT           "半形",IDC_STATIC,100,494,32,8
+    PUSHBUTTON      ">",IDC_BUTTON_BRUSH_INCREASE_SIZE,80,492,14,12
+    PUSHBUTTON      "<",IDC_BUTTON_BRUSH_DECREASE_SIZE,45,492,14,12
+    CONTROL         "範圍模式",IDC_CHECK_CHANGE_COLOR_AREA_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,451,92,8
+    CONTROL         "三角形模式",IDC_CHECK_REFINE_TRIANGLE_MODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,425,92,8
+    LTEXT           "字元選擇",IDC_STATIC,5,232,58,8
+    COMBOBOX        IDC_COMBO_SELECT_BLOCK_MODE,5,246,140,12,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "前頁",IDC_BUTTON_SELECT_BLOCK_PREV_TABLE,72,229,35,15
+    PUSHBUTTON      "後頁",IDC_BUTTON_SELECT_BLOCK_NEXT_TABLE,110,229,35,15
+    GROUPBOX        "復原／重做",IDC_STATIC,5,532,140,120
+    LTEXT           "目前步驟：無\n步驟總數：無",IDC_TEXT_ACTION_STATUS,10,543,104,22
+    LTEXT           "復原或重做至：\n（執行至被選擇的步驟，\n　但不執行之後的步驟。）",IDC_STATIC,10,569,126,30
+    PUSHBUTTON      "復原一步",IDC_BUTTON_UNDO_ONE_ACTION,10,632,56,16
+    PUSHBUTTON      "重做一步",IDC_BUTTON_REDO_ONE_ACTION,70,632,56,16
+    COMBOBOX        IDC_COMBO_ACTION_LIST,10,602,115,12,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "(Alt+Z)",IDC_STATIC,11,621,51,8
+    CTEXT           "(Alt+X)",IDC_STATIC,71,621,51,8
+    LTEXT           "旋轉",IDC_STATIC_IMAGE_ROTATE_DEGREE,9,51,27,8,SS_NOTIFY
+    RTEXT           "+180°",IDC_TEXT_IMAGE_ROTATE_DEGREE,42,51,31,8,SS_NOTIFY
+    CONTROL         "",IDC_SLIDER_IMAGE_ROTATE_DEGREE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,64,136,14
+    PUSHBUTTON      "取消旋轉",IDC_BUTTON_CANCEL_ROTATE,80,48,56,16
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 171, 79
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ANSI Painter"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "作者：Mark Ma",IDC_STATIC,42,13,114,8
+    DEFPUSHBUTTON   "OK",IDOK,114,57,50,14,WS_GROUP
+    LTEXT           "特別感謝：Henry Weng",IDC_STATIC,42,24,88,8
+    LTEXT           "初次使用時，請參閱上方選單中的\n「說明」→「功能解說」（熱鍵Ctrl+H）",IDC_STATIC,14,36,150,18
+END
+
+IDD_ADVANCED_SETTING_DIALOG DIALOGEX 0, 0, 181, 69
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "進階設定"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "確定",IDOK,73,48,50,14
+    PUSHBUTTON      "取消",IDCANCEL,125,48,50,14
+    LTEXT           "輸出內容寬度",IDC_STATIC,10,26,49,8
+    EDITTEXT        IDC_EDIT_EXPORT_WIDTH,61,24,20,12,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "說明",IDC_BUTTON_EXPORT_WIDTH_DESCRIPTION,108,23,28,14
+    LTEXT           "全形方格尺寸",IDC_STATIC,10,11,51,8
+    LTEXT           "半形",IDC_STATIC,85,26,17,8
+    LTEXT           "像素",IDC_STATIC,85,11,17,8
+    PUSHBUTTON      "說明",IDC_BUTTON_BLOCK_SIZE_DESCRIPTION,108,8,28,14
+    EDITTEXT        IDC_EDIT_BLOCK_SIZE,61,9,20,12,ES_RIGHT | ES_AUTOHSCROLL
+END
+
+IDD_USAGE_DIALOG DIALOGEX 0, 0, 379, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "功能說明"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_USAGE_IMAGE,"Static",SS_OWNERDRAW | WS_BORDER,92,7,266,158
+    CONTROL         "基本介紹",IDC_RADIO_USAGE_BASIC,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,12,80,8
+    CONTROL         "著色功能",IDC_RADIO_USAGE_DRAW,"Button",BS_AUTORADIOBUTTON,7,24,80,8
+    CONTROL         "文字輸入",IDC_RADIO_USAGE_TEXT,"Button",BS_AUTORADIOBUTTON,7,35,80,8
+    CONTROL         "大型筆刷",IDC_RADIO_USAGE_BRUSH,"Button",BS_AUTORADIOBUTTON,7,46,80,8
+    CONTROL         "顏色設定",IDC_RADIO_USAGE_COLOR,"Button",BS_AUTORADIOBUTTON,7,57,80,8
+    CONTROL         "邊緣調整 (1)",IDC_RADIO_USAGE_BOUNDARY,"Button",BS_AUTORADIOBUTTON,7,68,80,8
+    CONTROL         "邊緣調整 (2)",IDC_RADIO_USAGE_BOUNDARY_TRIANGLE,"Button",BS_AUTORADIOBUTTON,7,79,80,8
+    CONTROL         "合併方格",IDC_RADIO_USAGE_MERGE,"Button",BS_AUTORADIOBUTTON,7,90,80,8
+    CONTROL         "復原／重做",IDC_RADIO_USAGE_ACTION,"Button",BS_AUTORADIOBUTTON,7,101,80,8
+    PUSHBUTTON      "關閉",IDCANCEL,322,232,50,14
+    PUSHBUTTON      "<",IDC_BUTTON_USAGE_PREV_PAGE,152,230,18,16
+    PUSHBUTTON      ">",IDC_BUTTON_USAGE_NEXT_PAGE,217,230,18,16
+    CTEXT           "1 / 1",IDC_TEXT_USAGE_PAGE_INDEX,175,234,37,8
+    CTEXT           "目前頁面：",IDC_STATIC,85,235,60,8
+    EDITTEXT        IDC_TEXT_USAGE_DESCRIPTION,92,168,276,60,ES_MULTILINE | ES_READONLY | NOT WS_BORDER | WS_VSCROLL
+END
+
+IDD_TEXT_INPUT_DIALOG DIALOGEX 0, 0, 80, 26
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "確定",IDOK,0,12,28,14
+    PUSHBUTTON      "取消",IDCANCEL,30,12,28,14
+    EDITTEXT        IDC_EDIT_TEXT_INPUT,0,1,80,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_IMAGE_CRAFT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 685
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 71
+    END
+
+    IDD_ADVANCED_SETTING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_USAGE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_TEXT_INPUT_DIALOG, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "檔案"
+    BEGIN
+        MENUITEM "新增專案\tCtrl+N",                ID_FILE_NEW_PROJECT
+        MENUITEM "讀取專案\tCtrl+O",                ID_FILE_LOAD_PROJECT
+        MENUITEM "儲存專案\tCtrl+S",                ID_FILE_SAVE_PROJECT
+        MENUITEM "另存專案於...",                    ID_FILE_SAVE_PROJECT_AS
+        MENUITEM SEPARATOR
+        MENUITEM "開啟圖片\tCtrl+I",                ID_FILE_LOAD_IMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "讀取ANSI檔",                     ID_FILE_LOAD_ANSI
+        MENUITEM "儲存ANSI檔",                     ID_FILE_SAVE_ANSI
+        MENUITEM "輸出ANSI檔",                     ID_FILE_EXPORT_ANSI
+    END
+    POPUP "設定"
+    BEGIN
+        MENUITEM "進階設定",                        ID_SETTING_EXPORT_FILE
+    END
+    POPUP "說明"
+    BEGIN
+        MENUITEM "功能解說\tCtrl+H",                ID_HELP_USAGE
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "剪下\tCtrl+X",                  ID_EDIT_CUT
+        MENUITEM "複製\tCtrl+C",                  ID_EDIT_COPY
+        MENUITEM "貼上\tCtrl+V",                  ID_EDIT_PASTE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ImageCraft.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_REDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "I",            ID_FILE_LOAD_IMAGE,     VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_LOAD_PROJECT,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW_PROJECT,    VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE_PROJECT,   VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_HELP_USAGE,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_IMAGE_CRAFT_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_USAGE_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ADVANCED_SETTING_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TEXT_INPUT_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_USAGE_DRAW_SQUARE   PNG                     "res\\usage_draw_square.png"
+
+IDB_USAGE_DRAW_VIEW     PNG                     "res\\usage_draw_view.png"
+
+IDB_USAGE_BOUNDARY_TRIANGLE_INTRO PNG                     "res\\usage_boundary_triangle_intro.png"
+
+IDB_USAGE_BOUNDARY_TRIANGLE_BASIC PNG                     "res\\usage_boundary_triangle_basic.png"
+
+IDB_USAGE_BOUNDARY_TRIANGLE_MOVING PNG                     "res\\usage_boundary_triangle_moving.png"
+
+IDB_USAGE_BOUNDARY_TRIANGLE_HALF PNG                     "res\\usage_boundary_triangle_half.png"
+
+IDB_USAGE_BOUNDARY_TRIANGLE_REGULAR PNG                     "res\\usage_boundary_triangle_regular.png"
+
+IDB_USAGE_BOUNDARY_TRIANGLE_REGULAR_CASE PNG                     "res\\usage_boundary_triangle_regular_case.png"
+
+IDB_USAGE_COLOR_REGULAR_TRIANGLE PNG                     "res\\usage_color_regular_triangle.png"
+
+IDB_USAGE_COLOR_AREA_HINT PNG                     "res\\usage_color_area_hint.png"
+
+IDB_USAGE_BRUSH_INTRO   PNG                     "res\\usage_brush_intro.png"
+
+IDB_USAGE_BRUSH_OPERATION PNG                     "res\\usage_brush_operation.png"
+
+IDB_USAGE_BRUSH_CONFLICT PNG                     "res\\usage_brush_conflict.png"
+
+IDB_USAGE_BASIC_BLOCK_SIZE PNG                     "res\\usage_basic_block_size.png"
+
+IDB_USAGE_BASIC_PROJECT PNG                     "res\\usage_basic_project.png"
+
+IDB_USAGE_BASIC_AUTO_SAVE PNG                     "res\\usage_basic_auto_save.png"
+
+IDB_USAGE_BASIC_EXPORT  PNG                     "res\\usage_basic_export.png"
+
+IDB_USAGE_BASIC_ANSI    PNG                     "res\\usage_basic_ansi.png"
+
+IDB_USAGE_BOUNDARY_ADJUST_START PNG                     "res\\usage_boundary_adjust_start.png"
+
+IDB_USAGE_BOUNDARY_ADJUST_ACTION PNG                     "res\\usage_boundary_adjust_action.png"
+
+IDB_USAGE_BOUNDARY_ADJUST_MULTIPLE PNG                     "res\\usage_boundary_adjust_multiple.png"
+
+IDB_USAGE_BOUNDARY_ADJUST_VALIDATION PNG                     "res\\usage_boundary_adjust_validation.png"
+
+IDB_USAGE_BOUNDARY_SHEAR_LINE PNG                     "res\\usage_boundary_shear_line.png"
+
+IDB_USAGE_BOUNDARY_EXTENDED_ADJUST PNG                     "res\\usage_boundary_extended_adjust.png"
+
+IDB_USAGE_BOUNDARY_PARTIAL_ADJUST PNG                     "res\\usage_boundary_partial_adjust.png"
+
+IDB_USAGE_BOUNDARY_PARTIAL_ONLY PNG                     "res\\usage_boundary_partial_only.png"
+
+IDB_USAGE_BOUNDARY_PARTIAL_RESTRICT PNG                     "res\\usage_boundary_partial_restrict.png"
+
+IDB_USAGE_BOUNDARY_ADJUST_MULTIPLE_EXAMPLE PNG                     "res\\usage_boundary_adjust_multiple_example.png"
+
+IDB_USAGE_BOUNDARY_AUTO_MERGE PNG                     "res\\usage_boundary_auto_merge.png"
+
+IDB_USAGE_MERGE_EXAMPLE PNG                     "res\\usage_merge_example.png"
+
+IDB_USAGE_MERGE_ACTION  PNG                     "res\\usage_merge_action.png"
+
+IDB_USAGE_MERGE_DOUBLE  PNG                     "res\\usage_merge_double.png"
+
+IDB_USAGE_MERGE_MULTIPLE PNG                     "res\\usage_merge_multiple.png"
+
+IDB_USAGE_MERGE_FORCED  PNG                     "res\\usage_merge_forced.png"
+
+IDB_USAGE_MERGE_AUTO    PNG                     "res\\usage_merge_auto.png"
+
+IDB_USAGE_TEXT_COLOR    PNG                     "res\\usage_text_color.png"
+
+IDB_USAGE_TEXT_INPUT    PNG                     "res\\usage_text_input.png"
+
+IDB_USAGE_TEXT_INVALID_CHAR PNG                     "res\\usage_text_invalid_char.png"
+
+IDB_USAGE_BASIC_IMAGE   PNG                     "res\\usage_basic_image.png"
+
+IDB_USAGE_BASIC_DRAW_SPACES PNG                     "res\\usage_basic_draw_spaces.png"
+
+IDB_USAGE_BASIC_SCROLL  PNG                     "res\\usage_basic_scroll.png"
+
+IDB_USAGE_DRAW_BLOCK    PNG                     "res\\usage_draw_block.png"
+
+IDB_USAGE_DRAW_INTRO    PNG                     "res\\usage_draw_intro.png"
+
+IDB_USAGE_DRAW_BLOCK_OVERLAP PNG                     "res\\usage_draw_block_overlap.png"
+
+IDB_USAGE_DRAW_INSERT_DELETE PNG                     "res\\usage_draw_insert_delete.png"
+
+IDB_USAGE_DRAW_BLOCK_SELECT PNG                     "res\\usage_draw_block_select.png"
+
+IDB_USAGE_BRUSH_SHAPE   PNG                     "res\\usage_brush_shape.png"
+
+IDB_USAGE_COLOR_INTRO   PNG                     "res\\usage_color_intro.png"
+
+IDB_USAGE_COLOR_PICK    PNG                     "res\\usage_color_pick.png"
+
+IDB_USAGE_COLOR_CHANGE  PNG                     "res\\usage_color_change.png"
+
+IDB_USAGE_COLOR_TEXT    PNG                     "res\\usage_color_text.png"
+
+IDB_USAGE_COLOR_AREA_CONNECT PNG                     "res\\usage_color_area_connect.png"
+
+IDB_USAGE_COLOR_AREA_CHANGE PNG                     "res\\usage_color_area_change.png"
+
+IDB_USAGE_COLOR_MODE_SWITCH PNG                     "res\\usage_color_mode_switch.png"
+
+IDB_USAGE_TEXT_INTRO    PNG                     "res\\usage_text_intro.png"
+
+IDB_USAGE_MERGE_INTRO   PNG                     "res\\usage_merge_intro.png"
+
+IDB_USAGE_BOUNDARY_INTRO PNG                     "res\\usage_boundary_intro.png"
+
+IDB_USAGE_ACTION_INTRO  PNG                     "res\\usage_action_intro.png"
+
+IDB_USAGE_ACTION_STEPS  PNG                     "res\\usage_action_steps.png"
+
+IDB_USAGE_ACTION_CONTINUOUS PNG                     "res\\usage_action_continuous.png"
+
+IDB_USAGE_ACTION_OVERWRITE PNG                     "res\\usage_action_overwrite.png"
+
+IDB_USAGE_ACTION_ONE_STEP PNG                     "res\\usage_action_one_step.png"
+
+IDB_USAGE_ACTION_SPECIAL PNG                     "res\\usage_action_special.png"
+
+IDB_USAGE_BASIC_IMAGE_MOVE PNG                     "res\\usage_basic_image_move.png"
+
+IDB_USAGE_BASIC_IMAGE_CONTROL PNG                     "res\\usage_basic_image_control.png"
+
+IDB_USAGE_BASIC_INTRO   PNG                     "res\\usage_basic_intro.png"
+
+IDB_USAGE_ACTION_MAX_COUNT PNG                     "res\\usage_action_max_count.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "ANSI Painter"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "ANSI Painter"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+    IDS_TOOLBAR_STANDARD    "Standard"
+    IDS_TOOLBAR_CUSTOMIZE   "Customize..."
+    ID_INDICATOR_RATIO      " "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT_MENU           "Edit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_LOAD_IMAGE      "開啟背景圖片，不影響ANSI內容\n開啟圖片"
+    ID_FILE_SAVE_ANSI       "將ANSI內容存於另一個檔案\n儲存ANSI檔"
+    ID_FILE_SAVE_ANSI_AS    "將ANSI內容存於另一個檔案，並將其設為現在編輯的檔案\n另存ANSI檔"
+    ID_FILE_LOAD_ANSI       "讀取現有的ANSI檔，不影響背景圖片\n開啟ANSI檔"
+    ID_FILE_EXPORT_ANSI     "產生符合特定格式的ANSI檔案\n輸出ANSI檔"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_SAVE_PROJECT    "將內容儲存於現在編輯的專案\n儲存專案"
+    ID_FILE_LOAD_PROJECT    "讀取過去儲存的專案檔案\n讀取專案"
+    ID_SETTING_EXPORT_FILE  "調整較複雜或影響較大的設定\n進階設定"
+    ID_FILE_NEW_PROJECT     "新增一個無內容的空白專案\n新增專案"
+    ID_FILE_SAVE_PROJECT_AS "將內容儲存於另一個專案，並將其設為現在編輯的專案\n另存專案"
+    ID_HELP_USAGE           "開啟功能解說視窗"
+END
+
+#endif    // Chinese (Traditional, Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "ANSI Painter"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ImageCraft.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "ImageCraft.exe"
+            VALUE "ProductName", "ANSI Painter"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\ImageCraft.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#if !defined(_AFXDLL)
+#include "afxprint.rc"               // printing/print preview resources
+#include "afxribbon.rc"              // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

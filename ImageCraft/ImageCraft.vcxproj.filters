@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AdvancedSettingDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AnsiCanvas.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnsiProjectManager.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnsiShare.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AnsiTemplate.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Big5Codec.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Big5CodecTable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorSelector.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorStaticST.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BasicClass\Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawStatic.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCraft.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCraftDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCraftShare.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCraftView.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyComboBox.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorPanel.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TextImageMaker.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BasicClass\ipp_arm.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UsageData.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UsageDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BasicClass\use_hylib.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BasicClass\use_ipp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdvancedSettingDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AnsiCanvas.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnsiProjectManager.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnsiShare.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AnsiTemplate.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Big5Codec.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorSelector.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorStaticST.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BasicClass\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawStatic.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCraft.h">
+      <Filter>MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCraftDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCraftShare.h">
+      <Filter>MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCraftView.h">
+      <Filter>MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MainUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyComboBox.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorPanel.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="TextImageMaker.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BasicClass\ipp_arm.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="UsageData.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UsageDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BasicClass\use_hylib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BasicClass\use_ipp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\guidebar.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\icon_ansi.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\ImageCraft.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_continuous.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_max_count.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_one_step.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_overwrite.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_redo.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_special.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_action_steps.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_ansi.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_auto_save.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_block_size.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_draw_spaces.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_export.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_image.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_image_control.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_image_move.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_move.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_project.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_basic_scroll.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_adjust_action.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_adjust_multiple.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_adjust_multiple_example.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_adjust_start.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_adjust_validation.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_auto_merge.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_extended_adjust.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_partial_adjust.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_partial_only.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_partial_restrict.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_shear_line.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_triangle_basic.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_triangle_half.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_triangle_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_triangle_moving.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_triangle_regular.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_boundary_triangle_regular_case.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_brush_conflict.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_brush_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_brush_operation.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_brush_shape.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_0.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_4.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_area_change.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_area_connect.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_area_hint.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_change.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_mode_switch.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_pick.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_regular_triangle.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_color_text.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_0.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_4.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_5.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_6.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_block.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_block_2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_block_overlap.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_block_select.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_insert_delete.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_square.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_draw_view.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_0.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_4.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_5.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_6.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_action.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_auto.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_double.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_example.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_forced.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_merge_multiple.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_0.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_1.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_3.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_color.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_input.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_intro.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="res\usage_text_invalid_char.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1bdddd25-b21d-4122-8944-a76dc0bf0dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{f59cea93-290e-4b7f-b374-3689d3c0a045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{f8120c46-8c58-4410-ab83-84b76a82d962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainUI">
+      <UniqueIdentifier>{f218579e-61b7-49d8-858b-83cf678293c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{f8a03665-bfff-4946-a3cd-b2aad19fb44b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageCraft.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ImageCraft.rc2">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

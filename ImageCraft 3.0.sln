@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageCraft", "ImageCraft\ImageCraft.vcxproj", "{513D55EB-AA1E-4561-9339-5637AAAEB909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513D55EB-AA1E-4561-9339-5637AAAEB909}.Debug|Win32.ActiveCfg = Debug|Win32
+		{513D55EB-AA1E-4561-9339-5637AAAEB909}.Debug|Win32.Build.0 = Debug|Win32
+		{513D55EB-AA1E-4561-9339-5637AAAEB909}.Release|Win32.ActiveCfg = Release|Win32
+		{513D55EB-AA1E-4561-9339-5637AAAEB909}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B09E12ED-AA55-4077-A7EB-CADB2E1D5923}
+	EndGlobalSection
+EndGlobal

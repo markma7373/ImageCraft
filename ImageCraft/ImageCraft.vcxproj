@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{513D55EB-AA1E-4561-9339-5637AAAEB909}</ProjectGuid>
+    <RootNamespace>ImageCraft</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27625.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>ANSI Painter</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../BasicClass;../_inc;../_inc/UltimateToolBox;../BasicClass/_inc/IPP;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>uafxcwd.lib;Libcmtd.lib;jpgdu.lib;UTLibStaticDU.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\_lib;..\BasicClass\_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>uafxcwd.lib Libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../BasicClass;../_inc;../_inc/UltimateToolBox;../BasicClass/_inc/IPP;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;_DBG_REL;_CRT_SECURE_NO_WARNINGS;_CRT_NON_CONFORMING_SWPRINTFS;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4100;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <TreatSpecificWarningsAsErrors>4715</TreatSpecificWarningsAsErrors>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>uafxcw.lib;Libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\_lib;..\BasicClass\_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>uafxcw.lib Libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Image Include="res\guidebar.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon_ansi.ico" />
+    <Image Include="res\ImageCraft.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\usage_action_continuous.png" />
+    <Image Include="res\usage_action_intro.png" />
+    <Image Include="res\usage_action_max_count.png" />
+    <Image Include="res\usage_action_one_step.png" />
+    <Image Include="res\usage_action_overwrite.png" />
+    <Image Include="res\usage_action_redo.png" />
+    <Image Include="res\usage_action_special.png" />
+    <Image Include="res\usage_action_steps.png" />
+    <Image Include="res\usage_basic_ansi.png" />
+    <Image Include="res\usage_basic_auto_save.png" />
+    <Image Include="res\usage_basic_block_size.png" />
+    <Image Include="res\usage_basic_draw_spaces.png" />
+    <Image Include="res\usage_basic_export.png" />
+    <Image Include="res\usage_basic_image.png" />
+    <Image Include="res\usage_basic_image_control.png" />
+    <Image Include="res\usage_basic_image_move.png" />
+    <Image Include="res\usage_basic_intro.png" />
+    <Image Include="res\usage_basic_move.png" />
+    <Image Include="res\usage_basic_project.png" />
+    <Image Include="res\usage_basic_scroll.png" />
+    <Image Include="res\usage_boundary_adjust_action.png" />
+    <Image Include="res\usage_boundary_adjust_multiple.png" />
+    <Image Include="res\usage_boundary_adjust_multiple_example.png" />
+    <Image Include="res\usage_boundary_adjust_start.png" />
+    <Image Include="res\usage_boundary_adjust_validation.png" />
+    <Image Include="res\usage_boundary_auto_merge.png" />
+    <Image Include="res\usage_boundary_extended_adjust.png" />
+    <Image Include="res\usage_boundary_intro.png" />
+    <Image Include="res\usage_boundary_partial_adjust.png" />
+    <Image Include="res\usage_boundary_partial_only.png" />
+    <Image Include="res\usage_boundary_partial_restrict.png" />
+    <Image Include="res\usage_boundary_shear_line.png" />
+    <Image Include="res\usage_boundary_triangle_basic.png" />
+    <Image Include="res\usage_boundary_triangle_half.png" />
+    <Image Include="res\usage_boundary_triangle_intro.png" />
+    <Image Include="res\usage_boundary_triangle_moving.png" />
+    <Image Include="res\usage_boundary_triangle_regular.png" />
+    <Image Include="res\usage_boundary_triangle_regular_case.png" />
+    <Image Include="res\usage_brush_conflict.png" />
+    <Image Include="res\usage_brush_intro.png" />
+    <Image Include="res\usage_brush_operation.png" />
+    <Image Include="res\usage_brush_shape.png" />
+    <Image Include="res\usage_color_0.png" />
+    <Image Include="res\usage_color_1.png" />
+    <Image Include="res\usage_color_2.png" />
+    <Image Include="res\usage_color_3.png" />
+    <Image Include="res\usage_color_4.png" />
+    <Image Include="res\usage_color_area_change.png" />
+    <Image Include="res\usage_color_area_connect.png" />
+    <Image Include="res\usage_color_area_hint.png" />
+    <Image Include="res\usage_color_change.png" />
+    <Image Include="res\usage_color_intro.png" />
+    <Image Include="res\usage_color_mode_switch.png" />
+    <Image Include="res\usage_color_pick.png" />
+    <Image Include="res\usage_color_regular_triangle.png" />
+    <Image Include="res\usage_color_text.png" />
+    <Image Include="res\usage_draw_0.png" />
+    <Image Include="res\usage_draw_1.png" />
+    <Image Include="res\usage_draw_2.png" />
+    <Image Include="res\usage_draw_3.png" />
+    <Image Include="res\usage_draw_4.png" />
+    <Image Include="res\usage_draw_5.png" />
+    <Image Include="res\usage_draw_6.png" />
+    <Image Include="res\usage_draw_block.png" />
+    <Image Include="res\usage_draw_block_2.png" />
+    <Image Include="res\usage_draw_block_overlap.png" />
+    <Image Include="res\usage_draw_block_select.png" />
+    <Image Include="res\usage_draw_insert_delete.png" />
+    <Image Include="res\usage_draw_intro.png" />
+    <Image Include="res\usage_draw_square.png" />
+    <Image Include="res\usage_draw_view.png" />
+    <Image Include="res\usage_merge_0.png" />
+    <Image Include="res\usage_merge_1.png" />
+    <Image Include="res\usage_merge_2.png" />
+    <Image Include="res\usage_merge_3.png" />
+    <Image Include="res\usage_merge_4.png" />
+    <Image Include="res\usage_merge_5.png" />
+    <Image Include="res\usage_merge_6.png" />
+    <Image Include="res\usage_merge_action.png" />
+    <Image Include="res\usage_merge_auto.png" />
+    <Image Include="res\usage_merge_double.png" />
+    <Image Include="res\usage_merge_example.png" />
+    <Image Include="res\usage_merge_forced.png" />
+    <Image Include="res\usage_merge_intro.png" />
+    <Image Include="res\usage_merge_multiple.png" />
+    <Image Include="res\usage_text_0.png" />
+    <Image Include="res\usage_text_1.png" />
+    <Image Include="res\usage_text_2.png" />
+    <Image Include="res\usage_text_3.png" />
+    <Image Include="res\usage_text_color.png" />
+    <Image Include="res\usage_text_input.png" />
+    <Image Include="res\usage_text_intro.png" />
+    <Image Include="res\usage_text_invalid_char.png" />
+    <Image Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageCraft.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ImageCraft.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BasicClass\Common.h" />
+    <ClInclude Include="..\BasicClass\ipp_arm.h" />
+    <ClInclude Include="..\BasicClass\use_hylib.h" />
+    <ClInclude Include="..\BasicClass\use_ipp.h" />
+    <ClInclude Include="AdvancedSettingDialog.h" />
+    <ClInclude Include="AnsiCanvas.h" />
+    <ClInclude Include="AnsiProjectManager.h" />
+    <ClInclude Include="AnsiShare.h" />
+    <ClInclude Include="AnsiTemplate.h" />
+    <ClInclude Include="Big5Codec.h" />
+    <ClInclude Include="ColorSelector.h" />
+    <ClInclude Include="ColorStaticST.h" />
+    <ClInclude Include="DrawStatic.h" />
+    <ClInclude Include="MyComboBox.h" />
+    <ClInclude Include="MyEdit.h" />
+    <ClInclude Include="TextImageMaker.h" />
+    <ClInclude Include="ImageCraft.h" />
+    <ClInclude Include="ImageCraftDialog.h" />
+    <ClInclude Include="ImageCraftShare.h" />
+    <ClInclude Include="ImageCraftView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectorPanel.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextInputDialog.h" />
+    <ClInclude Include="UsageData.h" />
+    <ClInclude Include="UsageDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BasicClass\Common.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\BasicClass\ipp_arm.cpp" />
+    <ClCompile Include="..\BasicClass\use_hylib.cpp" />
+    <ClCompile Include="..\BasicClass\use_ipp.cpp" />
+    <ClCompile Include="AdvancedSettingDialog.cpp" />
+    <ClCompile Include="AnsiCanvas.cpp" />
+    <ClCompile Include="AnsiProjectManager.cpp" />
+    <ClCompile Include="AnsiShare.cpp" />
+    <ClCompile Include="AnsiTemplate.cpp" />
+    <ClCompile Include="Big5CodecTable.cpp" />
+    <ClCompile Include="Big5Codec.cpp" />
+    <ClCompile Include="ColorSelector.cpp" />
+    <ClCompile Include="ColorStaticST.cpp" />
+    <ClCompile Include="DrawStatic.cpp" />
+    <ClCompile Include="ImageCraft.cpp" />
+    <ClCompile Include="ImageCraftDialog.cpp" />
+    <ClCompile Include="ImageCraftShare.cpp" />
+    <ClCompile Include="ImageCraftView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MyComboBox.cpp" />
+    <ClCompile Include="MyEdit.cpp" />
+    <ClCompile Include="SelectorPanel.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TextImageMaker.cpp" />
+    <ClCompile Include="TextInputDialog.cpp" />
+    <ClCompile Include="UsageData.cpp" />
+    <ClCompile Include="UsageDialog.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ImageCraft.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
